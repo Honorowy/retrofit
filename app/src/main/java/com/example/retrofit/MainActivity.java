@@ -20,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        // https://my-json-server.typicode.com/Honorowy/pytania_retrofit/db
     }
 }
