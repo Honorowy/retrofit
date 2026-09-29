@@ -10,11 +10,13 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textViewPytanie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Treść pytania" />
 
     <RadioGroup
+        android:id="@+id/radioGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -39,7 +41,7 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonNastepne"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dalej" />

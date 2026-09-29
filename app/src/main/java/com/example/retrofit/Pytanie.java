@@ -21,4 +21,6 @@ public class Pytanie {
         this.odpC = odpC;
         this.odpowiedzPoprawna = odpowiedzPoprawna;
     }
+
+
 }
